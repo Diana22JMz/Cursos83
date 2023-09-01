@@ -3,12 +3,14 @@
 public class CuentaAhorros9 extends Cuenta_POO_01{
 
     public CuentaAhorros9(int agencia, int numero) {
+
         super(agencia, numero);
     }
 
     @Override
     public void depositar(double valor) {//Metodo instanciado de una clase abstracta
-        this.saldo = this.saldo += valor;
+
+        this.saldo = this.saldo + valor;
     }
  /*Como aquí se implementa el metodo abtracto y se trata de una clase hija
  * se agrega el cuerpo.

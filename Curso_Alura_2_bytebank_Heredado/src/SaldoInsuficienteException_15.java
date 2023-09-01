@@ -4,7 +4,7 @@ public class SaldoInsuficienteException_15 extends Exception{
 
 
     +Pero al extenderse solo a excepcion nos obligara a tener que tratar ala bomba.
-     Recordemos que ahora sera checked-verificado*/
+     Recordemos que ahora sera checked*/
 
 
     public SaldoInsuficienteException_15(String mensaje){
